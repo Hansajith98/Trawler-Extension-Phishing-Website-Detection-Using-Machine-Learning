@@ -27,24 +27,17 @@ async function checkUrl(urlToSend, warning_url,sender) {
         headers: { 
             "Content-type": "application/json; charset=UTF-8"
         }
+    }).then(response => response.json())
+    .then(result => {
+        if(result.state == 1){
+            console.log("checkurl if");
+            console.log(sender.tab.id);
+            chrome.tabs.update({'url': warning_url});
+        }else{
+            console.log("checkurl else");
+        }
     });
-    var respns = await server_response.json();
     }catch(e) {
         console.log(e);
     }
-
-    console.log(typeof(respns.state));
-    if(respns.state == 1){
-        let message = "1";
-        console.log("checkurl if");
-        console.log(sender.tab.id);
-        chrome.tabs.update({'url': warning_url});
-        return "1";
-    }else{
-        let message = "0";
-        console.log("checckurl else");
-        return "0";
-    }
-    // console.log(typeof(message));
-    // return message;
 }
