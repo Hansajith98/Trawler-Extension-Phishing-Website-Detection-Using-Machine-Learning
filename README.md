@@ -2,6 +2,8 @@
 
 This literaly detect Phishing websites using Machine Learning and automaticaly warn it to user.
 
+![Trawler Logo](https://i.postimg.cc/3JtvNypF/Trawler-transparent2-128x128.png)
+
 ### How it Works?
 
 > Extension detect all URLs browsing by user and check is they ar in white list. If not, extension send requet to the flask server and waiting for the server response.
