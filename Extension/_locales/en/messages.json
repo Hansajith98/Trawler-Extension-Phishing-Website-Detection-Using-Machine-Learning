@@ -1,0 +1,70 @@
+{
+  "extension_name": {
+    "message": "Trawler",
+    "description": "This extension will alert when user beign visiting phishing websites."
+  },
+  "extension_description": {
+    "message": "Trawler protect you against phishing attacks.",
+    "description": "This is used for the general description that is displayed in chrome web store."
+  },
+  "extension_detailed_description": {
+    "message": "Trawler will detect phishing website with latest technology of Artificial Inteligance. It can identify even almost phishing website uderstanding their behaves.\n\nFAQ\n-- When will Trawler take effect?\nTrawler will check all the URLs you visiting against checking are they phishing or not.\n\n-- Does Trawler store my personal data or something?\nNo. Trawler does not store any kind of your data on remote area. Only save URLs that you restrict to block by Trawler and its on your local storage.\n\n-- Where does Trawler send data?\nOnly on your local browser storage\n\n-- What are Trawler's limits?\nTrawler doesn't protect incognito windows, Chrome Apps, or Chrome Extensions. Trawler only operates inside the Chrome web browser when Javascript is enabled.\n\n-- Where can I find more details?\nVisit the full FAQ at LINK_TBD, or you can see the entire open-source codebase at https://github.com/Hansajith98/Trawler\n\n",
+    "description": "This is used for the detailed (long) description that is displayed in chrome web store."
+  },
+  "learn_more": {
+    "message": "Learn more",
+    "description": "This is used for the warning banner's learn more link, which the user can click to open a page to learn more information."
+  },
+  "ignore": {
+    "message": "Ignore this time",
+    "description": "This is used to tell the user that they can ignore the warning for this time only. [CHAR LIMIT = 25]"
+  },
+  "always_ignore": {
+    "message": "Always ignore for this site",
+    "description": "This is used to tell the user to always ignore this website from further warnings."
+  },
+  "always_ignore_confirmation": {
+    "message": "Do you want Password Alert to always ignore this website?",
+    "description": "This is used to tell the user to confirm that he/she always wants to ignore this website from further warnings."
+  },
+  "phishing_warning_banner_header": {
+    "message": "This site has been blocked.",
+    "description": "This is used for the warning banner to warn users that they are visiting a phishing website. [CHAR LIMIT = 50]"
+  },
+  "phishing_warning_banner_body": {
+    "message": "This site appears to it's behaving of phishing website, so it has been blocked. If you understand that this site may harm your computer, you may visit this site but please be careful about the information you type.",
+    "description": "This is used for the warning banner to warn users that they are visiting a phishing website. [CHAR LIMIT = 300]"
+  },
+  "back": {
+    "message": "Back",
+    "description": "This is used to tell the user that they can navigate back to the previous webpage. [CHAR LIMIT = 25]"
+  },
+  "close_this_tab": {
+    "message": "Close This Tab",
+    "description": "This is used to help user to close tab. [CHAR LIMIT = 25]"
+  },
+  "report_phishing": {
+    "message": "Report This Site",
+    "description": "This is used to tell the user to report this potentially malicious website to Google. [CHAR LIMIT = 25]"
+  },
+  "visit_this_site": {
+    "message": "Visit This Site",
+    "description": "This is used to tell the user that they can visit the current website. [CHAR LIMIT = 25]"
+  },
+  "block": {
+    "message": "Block",
+    "description": "This is navigate user to block current row URLs. [CHAR LIMIT = 25]"
+  },
+  "shutdown_trawler": {
+    "message": "Trawler Settings",
+    "description": "Option page Title"
+  },
+  "table_head": {
+    "message": "Detected phish sites that allowed by user,",
+    "description": "This is head of white list url table."
+  },
+  "no_content_message": {
+    "message": "There is no White listed URLs",
+    "description": "This shows when while list table is empty."
+  }
+}

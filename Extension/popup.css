@@ -1,0 +1,135 @@
+to*{
+	text-decoration: none;
+}
+body{
+  background-color: #cccccc;
+  width: 250px;
+  height: 250px;
+}
+
+.top{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0px;
+}
+.item {
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  display: inline-block;
+}
+
+.index{
+  color: #333333;
+}
+
+
+.container
+{
+  padding-left: 50px;
+  padding-right: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  justify-content: center;
+  display: flex;
+ 
+}
+.container .togle{
+  display: inline-block;
+  padding:10px;
+}
+
+
+ /* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 18px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  padding:30px;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #aaaaaa;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 15px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #333333;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #225599;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(12px);
+  -ms-transform: translateX(12px);
+  transform: translateX(12px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 15px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} 
+.tooltip {
+  position: absolute;
+  display: list-item;
+  border-bottom: 0px;
+}
+
+.item .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: #dddddd; 
+  color: #111111;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.banner{
+  padding: 50px;
+  justify-content: center;
+  display: flex;
+}
+img{
+  position: absolute;
+  left: 50%;
+}
